@@ -1721,7 +1721,7 @@ footer h6 {
 }
 footer {
 	padding: 0;
-	background: #36404b url(../images/footer-bg.png) center center no-repeat;
+	background: #000000 url(../images/footer-bg.png) center center no-repeat;
 	padding-bottom: 60px;
 	margin-top: 60px;
 }
@@ -1884,7 +1884,7 @@ footer button {
 	background: #434e5a;
 }
 .rights {
-	background: #2c343d;
+	background: #000000;
 	padding: 20px 0;
 	text-align: center;
 }
@@ -1912,7 +1912,7 @@ footer .social_icons a {
 	text-align: center;
 }
 .footer-info {
-	
+	padding-top: 8rem; 
 }
 .footer-info .links li {
 	float: left;
