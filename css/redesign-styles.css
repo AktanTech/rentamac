@@ -1,0 +1,8 @@
+@media (max-width: 600px){
+    #Main-Logo{
+        width: 160px;
+    }
+    #Info-Header{
+        display: none;
+    }
+}

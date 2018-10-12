@@ -404,10 +404,10 @@ header {
 	padding-top: 30px;
 }
 header .navbar {
-	background: #36404b;
+	background: #000000;
 	border: none;
 	margin: 0px;
-	margin-top: 35px;
+	margin-top: 20px;
 	padding: 0px;
 	border-radius: 0px;
 	text-align: center;
@@ -456,7 +456,7 @@ header .navbar li a:before {
 	left: 0px;
 	z-index: -1;
 	content: "";
-	background: #fb4848;
+	background: #be0811;
 	-webkit-transition: 0.2s ease-in-out;
 	-moz-transition: 0.2s ease-in-out;
 	-ms-transition: 0.2s ease-in-out;
@@ -471,7 +471,7 @@ header .navbar li.active a:before {
 }
 header .quotes {
 	float: right;
-}
+} 
 header .quotes a {
 	font-size: 13px;
 	color: #fff;
@@ -561,8 +561,8 @@ header .quotes a:hover {
 .top-info-con .icon {
 	height: 48px;
 	width: 48px;
-	border: 1px solid #fb4848;
-	color: #fb4848;
+	border: 1px solid #be0811;
+	color: #be0811;
 	text-align: center;
 	line-height: 48px;
 	display: inline-block;
