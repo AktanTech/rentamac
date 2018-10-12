@@ -1709,10 +1709,20 @@ header .quotes a:hover {
 /*=======================================================
 			FOOTER
 ========================================================*/
+#Contactanos li{
+	display: flex;
+	flex-direction: column;
+}
+
+#Contactanos .row{
+	display: flex;
+	flex-direction: row;
+}
+
 footer p {
 	font-size: 15px;
 	line-height: 26px;
-	color: #969ea7;
+	color: #000000;
 }
 footer h6 {
 	color: #fff;
@@ -1721,7 +1731,7 @@ footer h6 {
 }
 footer {
 	padding: 0;
-	background: #000000 url(../images/footer-bg.png) center center no-repeat;
+	background: #F7EB45 url(../images/footer-bg.png) center center no-repeat;
 	padding-bottom: 60px;
 	margin-top: 60px;
 }
@@ -1980,7 +1990,7 @@ footer .social_icons a {
 .foot-info-con .icon {
 	height: 90px;
 	width: 90px;
-	color: #fff;
+	color: #000000;
 	background: #3f4955;
 	text-align: center;
 	line-height: 90px;
@@ -1997,7 +2007,7 @@ footer .social_icons a {
 .foot-info-con h6 {
 	font-weight: normal;
 	font-family: 'Ubuntu';
-	color: #fff;
+	color: #000000;
 	font-weight: bold;
 	margin-top: 20px;
 	font-size: 15px;
