@@ -901,7 +901,9 @@ header .quotes a:hover {
 	color: #fff;
 }
 .gallery .col-6 li {
-	width: 16.6666%;
+	padding-right: 5rem;
+	padding-left: 5rem;
+	padding-bottom: 4rem;
 	float: left;
 }
 .gal-item .hover-info a:hover {
@@ -1978,9 +1980,15 @@ footer .social_icons a {
 	margin-top: 5px;
 }
 .foot-info-con {
-	display: inline-block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 100%;
 	margin-top: 80px;
+}
+.foot-info-con li{
+	margin-bottom: 2rem;
+	width: 50% !important; 
 }
 .foot-info-con li a {
 	font-size: 13px;
@@ -2019,7 +2027,7 @@ footer .social_icons a {
 			CONTACT FORM
 ========================================================*/
 .contact-page #map {
-	height: 600px;
+	height: 32rem;
 }
 .contact-form .error {
 	border: 1px solid red;
