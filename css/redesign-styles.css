@@ -1,8 +1,34 @@
+.gallery{
+    padding-right: 9em;
+    padding-left: 9em;
+}
+#generadores, #torres, #remolques{
+    padding-top: 60px !important
+}
+.heading h5 {
+    background: black;
+}
+.heading h5::after{
+    border-color: #000 transparent transparent transparent;
+}
+.heading h5::before{
+    border-color: transparent transparent #000 transparent;
+}
+#service-image{
+    height: 440px;
+}
 @media (max-width: 600px){
     #Main-Logo{
         width: 160px;
     }
     #Info-Header{
         display: none;
+    }
+    .gallery{
+        padding: 0em !important;
+    }
+
+    #service-image{
+        height: auto;
     }
 }

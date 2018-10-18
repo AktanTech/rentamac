@@ -236,7 +236,7 @@ $.ajax({
 var map;
 function initialize_map() {
 if ($('#map').length) {
-  var myLatLng = new google.maps.LatLng(-37.814199, 144.961560);
+  var myLatLng = new google.maps.LatLng(20.980479, -89.615905);
   var mapOptions = {
     zoom: 18,
     center: myLatLng,
