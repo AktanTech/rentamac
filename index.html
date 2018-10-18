@@ -290,11 +290,11 @@
               <div class="position-center-center col-xs-12 no-padding">
                 <ul class="nav nav-pills nav-stacked" role="tablist">
                   <li role="presentation" class="active"><a href="#generadores" role="tab" data-toggle="tab"> <img src="images/generador.png"
-                        alt=""><span> Generadores Electricos</span></a></li>
+                        alt="" class="iconService"><span> Generadores Electricos</span></a></li>
                   <li role="presentation"><a href="#torres" role="tab" data-toggle="tab"><img src="images/street-lamp.png"
-                        alt=""><span>Torres de Iluminación</span></a></li>
+                        alt="" class="iconService"><span>Torres de Iluminación</span></a></li>
                   <li role="presentation"><a href="#remolques" role="tab" data-toggle="tab"><img src="images/caravana.png"
-                        alt=""><span>Fabricacion de remolques</span></a></li>
+                        alt="" class="iconService"><span>Fabricacion de remolques</span></a></li>
                 </ul>
               </div>
             </div>
@@ -491,15 +491,63 @@
       <section id="Nosotros" class="padding-top-100 padding-bottom-100">
         <div class="container">
           <!-- Heading -->
-          <div class="heading text-center">
+          <div class="heading text-center" id="headAbout">
             <h5>About Us</h5>
             <hr>
             <h4>Somos una empresa yucateca ofreciendo soluciones a los problemas de energía de nuestros
               clientes. <br>
-              El espíritu de RENTAMAQ es buscar siempre la eficiencia<br>
-              Gracias a nuestra dinámica de trabajo y orientación exclusiva a la satisfacción del cliente podemos
-              estar junto a usted y sus proyectos.<br>
-              Contará con nosotros, para soluciones Técnicas que se requiera realizar con calidad y seriedad. </h4>
+              El espíritu de RENTAMAQ es buscar siempre la eficiencia y la satisfacción del cliente </h4>
+          </div>
+
+          <div id="accordion">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link buttonUs" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Misión
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseOne" class="collapsed" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body infoUs">
+                      Brindar solución de energía a la medida, excelencia y calidad en servicio.
+                    </div>
+                  </div>
+                </div> 
+              </div>
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link buttonUs" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Visión
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapsed" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body infoUs">
+                      Ofrecer soluciones a través de innovación constante.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Collapsible Group Item #3
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                  Collapse 3
+                </div>
+              </div>
+            </div> -->
           </div>
 
           <!-- TEAM -->

@@ -1,7 +1,14 @@
+@font-face{
+    font-family: "EleganTech";
+    src: url("../fonts/elegantech--webfont.woff");
+    src: url("../fonts/elegantech--webfont.woff2");
+    src: url("../fonts/EleganTech-.ttf");
+}
 .gallery{
     padding-right: 9em;
     padding-left: 9em;
 }
+
 #generadores, #torres, #remolques{
     padding-top: 60px !important
 }
@@ -14,6 +21,21 @@
 .heading h5::before{
     border-color: transparent transparent #000 transparent;
 }
+
+#headAbout{
+    margin-bottom: 20px;
+}
+.buttonUs{
+    width: 100%;
+}
+.infoUs{
+    font-family: EleganTech;
+    font-size: large;
+    text-align: center;
+}
+#collapseOne, #collapseTwo{
+    padding-bottom: 2.5em;
+}
 #service-image{
     height: 440px;
 }
@@ -23,6 +45,9 @@
     }
     #Info-Header{
         display: none;
+    }
+    .iconService{
+        width: 35px !important;
     }
     .gallery{
         padding: 0em !important;
