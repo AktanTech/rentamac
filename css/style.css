@@ -253,7 +253,7 @@ a:hover, a:focus {
 	padding: 0px 15px;
 	padding-left: 10px;
 	position: relative;
-	background: #fb4848;
+	background: #be0811;
 	z-index: 2;
 	-webkit-transition: 0.4s ease-in-out;
 	-moz-transition: 0.4s ease-in-out;
@@ -262,7 +262,7 @@ a:hover, a:focus {
 	transition: 0.4s ease-in-out;
 }
 .btn:hover {
-	background: #fb4848;
+	background: #be0811;
 }
 .btn:hover i {
 	background: #36404b;
@@ -861,8 +861,8 @@ header .quotes a:hover {
 	transition: all 0.4s ease-in-out;
 }
 .gallery li:hover .item-detail {
-	background: #fb4848;
-	border-color: #fb4848;
+	background: #be0811;
+	border-color: #be0811;
 }
 .gallery li.col-6 {
 	padding: 0px;
@@ -907,7 +907,7 @@ header .quotes a:hover {
 	float: left;
 }
 .gal-item .hover-info a:hover {
-	background: #fb4848;
+	background: #be0811;
 }
 .gallery li:hover .hover-info {
 	opacity: 1;
@@ -967,7 +967,7 @@ header .quotes a:hover {
 	bottom: -100%;
 	padding: 30px;
 	padding-bottom: 0px;
-	background: #fb4848;
+	background: #be0811;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -1078,11 +1078,11 @@ header .quotes a:hover {
 }
 .offers-tabs .nav li a:hover,
 .offers-tabs .nav li.active a {
-	background: #fb4848;
+	background: #be0811;
 	color: #fff;
 }
 .offers-tabs .tab-pane h4 {
-	color: #fb4848;
+	color: #be0811;
 	margin: 0px;
 	font-weight: 800;
 	margin-bottom: 30px;
