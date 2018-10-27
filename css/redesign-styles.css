@@ -27,13 +27,18 @@
 }
 .buttonUs{
     width: 100%;
+    padding-left: 0px !important;
 }
 .infoUs{
     font-family: EleganTech;
     font-size: large;
     text-align: center;
 }
-#collapseOne, #collapseTwo{
+.container-info-top-us{
+    height: 116px !important;
+    padding-bottom: 2em;
+}
+.container-info-bottom-us{
     padding-bottom: 2.5em;
 }
 #service-image{
