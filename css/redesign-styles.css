@@ -28,11 +28,15 @@
 .buttonUs{
     width: 100%;
     padding-left: 0px !important;
+    font-size: larger;
 }
 .infoUs{
     font-family: EleganTech;
-    font-size: large;
-    text-align: center;
+    font-size: medium;
+    text-align: justify;
+}
+.infoUs > ul > li{
+    list-style: inside;
 }
 .container-info-top-us{
     height: 116px !important;
