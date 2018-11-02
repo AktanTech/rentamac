@@ -252,7 +252,7 @@ if ($('#map').length) {
     position: myLatLng,
     map: map,
     tittle: 'Envato',
-    icon: './images/map-locator.png'
+    icon: './images/rayito96.png'
 });} 
 else {
   return false;

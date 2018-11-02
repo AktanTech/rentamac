@@ -10,7 +10,7 @@
 }
 
 #generadores, #torres, #remolques{
-    padding-top: 60px !important
+    padding-top: 0rem !important
 }
 .heading h5 {
     background: black;
@@ -31,7 +31,7 @@
     font-size: larger;
 }
 .infoUs{
-    font-family: EleganTech;
+    font-family: 'Martel Sans', sans-serif;
     font-size: medium;
     text-align: justify;
 }

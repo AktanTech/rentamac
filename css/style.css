@@ -906,6 +906,10 @@ header .quotes a:hover {
 	padding-bottom: 4rem;
 	float: left;
 }
+.imgGallery{
+	width: 38rem !important;
+	height: 24rem;
+}
 .gal-item .hover-info a:hover {
 	background: #be0811;
 }
@@ -1097,16 +1101,28 @@ header .quotes a:hover {
 	color: #36404b;
 }
 .offers-tabs .tab-pane ul li {
+	display: flex;
+    justify-content: space-around;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
-.offers-tabs .tab-pane ul span {
-	width: 50px;
-	display: inline-block;
+.tabImg {
+	width: 2.5rem;
+	height: 2.5rem;
+	margin-right: 1rem;
+}
+.offers-tabs .tab-pane ul li p {
+	display: flex;
+	flex-direction: row;
 }
 .offers-tabs .tab-pane ul {
 	margin-top: 30px;
 	margin-bottom: 30px;
+}
+.offers-tabs .tab-pane ul li a {
+	font-size: 1.5rem;
+	pointer-events: none;
+	cursor: default;
 }
 .offers-tabs .tab-pane {
 	padding: 100px 60px;
@@ -1433,8 +1449,6 @@ header .quotes a:hover {
 }
 .testi .media-body span {
 	color: #b0b7ff;
-}
-.texti-slide {
 }
 .testimonial.page .testi {
 	margin-bottom: 80px;
@@ -2011,6 +2025,7 @@ footer .social_icons a {
 .foot-info-con p {
 	font-size: 14px;
 	margin: 0px;
+	color: #000000;
 }
 .foot-info-con h6 {
 	font-weight: normal;
@@ -2022,6 +2037,9 @@ footer .social_icons a {
 	text-transform: none;
 	margin-bottom: 4px;
 	letter-spacing: 2px;
+}
+.footer-info .icon{
+	color: white;
 }
 /*=======================================================
 			CONTACT FORM
@@ -2282,6 +2300,9 @@ footer .social_icons a {
 	color: #fb4848;
 }
 .comments .media-body h4 {
+	color: #222222;
+}
+.comments .media-body p {
 	color: #222222;
 }
 .comments .media-body h4 span {
