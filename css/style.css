@@ -527,7 +527,7 @@ header .quotes a:hover {
 }
 .top-info-con {
 	float: right;
-	width: 70%;
+	width: 82%;
 	margin-top: 10px;
 	background: #fff;
 	position: relative;
@@ -900,14 +900,14 @@ header .quotes a:hover {
 	color: #fff;
 }
 .gallery .col-6 li {
-	padding-right: 5rem;
-	padding-left: 5rem;
+	padding-right: 1.5rem;
+	padding-left: 1.5rem;
 	padding-bottom: 4rem;
 	float: left;
 }
 .imgGallery{
-	width: 38rem !important;
-	height: 24rem;
+	width: 30rem !important;
+	height: 18rem;
 }
 .gal-item .hover-info a:hover {
 	background: #be0811;
@@ -2001,7 +2001,7 @@ footer .social_icons a {
 }
 .foot-info-con li{
 	margin-bottom: 2rem;
-	width: 50% !important; 
+	width: 50%; 
 }
 .foot-info-con li a {
 	font-size: 13px;
