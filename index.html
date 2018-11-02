@@ -13,6 +13,8 @@
   <!-- RS5.0 Layers and Navigation Styles -->
   <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
   <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css" />
+
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css" />
   <!-- Bootstrap Core CSS -->
@@ -69,12 +71,12 @@
 
             <!-- Email us -->
             <li>
-              <div class="media-left">
+              <div class="media-left" data-toggle="modal" data-target="#exampleModal">
                 <div class="icon"> <i class="icon-envelope-open"></i></div>
               </div>
               <div class="media-body">
                 <h6>Contactanos</h6>
-                <p>info@mail.com</p>
+                <p>contacto@rentamaqsur.com</p>
               </div>
             </li>
 
@@ -281,92 +283,12 @@
         <div class="container">
           <!-- Heading -->
           <div class="heading text-center" id="headAbout">
-            <h5>About Us</h5>
+            <h5>Acerca de nosotros</h5>
             <hr>
             <h4>Somos una empresa yucateca ofreciendo soluciones a los problemas de energía de nuestros
               clientes. <br>
               El espíritu de RENTAMAQ es buscar siempre la eficiencia y la satisfacción del cliente </h4>
           </div>
-
-          <!-- TEAM -->
-          <div class="team">
-            <div class="row">
-
-              <!-- MEMBER -->
-              <div class="col-md-3 col-sm-4 col-xs-6">
-                <article>
-                  <img class="img-responsive" src="images/member-1.jpg" alt="">
-                  <h5 class="team-name">Stevan Smith</h5>
-                  <div class="team-hover">
-                    <h5>Paul Walker</h5>
-                    <span>Engine Specialist</span>
-                    <p><i class="icon-envelope-open"></i> Support@Info.Com</p>
-                    <p><i class="icon-call-in"></i> +(800) 23-145-451</p>
-                    <ul class="social">
-                      <li><a href="#."><i class="fa fa-facebook"></i></a></li>
-                      <li><a href="#."><i class="fa fa-twitter"></i></a></li>
-                      <li><a href="#."><i class="fa fa-google-plus"></i></a></li>
-                    </ul>
-                  </div>
-                </article>
-              </div>
-
-              <!-- MEMBER -->
-              <div class="col-md-3 col-sm-4 col-xs-6">
-                <article> <img class="img-responsive" src="images/member-2.jpg" alt="">
-                  <h5 class="team-name">Paul Walker</h5>
-                  <div class="team-hover">
-                    <h5>Paul Walker</h5>
-                    <span>Engine Specialist</span>
-                    <p><i class="icon-envelope-open"></i> Support@Info.Com</p>
-                    <p><i class="icon-call-in"></i> +(800) 23-145-451</p>
-                    <ul class="social">
-                      <li><a href="#."><i class="fa fa-facebook"></i></a></li>
-                      <li><a href="#."><i class="fa fa-twitter"></i></a></li>
-                      <li><a href="#."><i class="fa fa-google-plus"></i></a></li>
-                    </ul>
-                  </div>
-                </article>
-              </div>
-
-              <!-- MEMBER -->
-              <div class="col-md-3 col-sm-4 col-xs-6">
-                <article> <img class="img-responsive" src="images/member-3.jpg" alt="">
-                  <h5 class="team-name">Luck Walker</h5>
-                  <div class="team-hover">
-                    <h5>Paul Walker</h5>
-                    <span>Engine Specialist</span>
-                    <p><i class="icon-envelope-open"></i> Support@Info.Com</p>
-                    <p><i class="icon-call-in"></i> +(800) 23-145-451</p>
-                    <ul class="social">
-                      <li><a href="#."><i class="fa fa-facebook"></i></a></li>
-                      <li><a href="#."><i class="fa fa-twitter"></i></a></li>
-                      <li><a href="#."><i class="fa fa-google-plus"></i></a></li>
-                    </ul>
-                  </div>
-                </article>
-              </div>
-
-              <!-- MEMBER -->
-              <div class="col-md-3 col-sm-4 col-xs-6">
-                <article> <img class="img-responsive" src="images/member-4.jpg" alt="">
-                  <h5 class="team-name">Brett Connor</h5>
-                  <div class="team-hover">
-                    <h5>Paul Walker</h5>
-                    <span>Engine Specialist</span>
-                    <p><i class="icon-envelope-open"></i> Support@Info.Com</p>
-                    <p><i class="icon-call-in"></i> +(800) 23-145-451</p>
-                    <ul class="social">
-                      <li><a href="#."><i class="fa fa-facebook"></i></a></li>
-                      <li><a href="#."><i class="fa fa-twitter"></i></a></li>
-                      <li><a href="#."><i class="fa fa-google-plus"></i></a></li>
-                    </ul>
-                  </div>
-                </article>
-              </div>
-            </div>
-          </div>
-
 
           <!-- Info About-->
           <div id="accordion">
@@ -474,13 +396,13 @@
           <div class="heading text-center">
             <h5>Nuestros Servicios</h5>
             <hr>
-            <h3>Ofrecemos servicios para EVENTOS SOCIALES, ESPECTÁCULOS, EMPRESAS COMERCIALES, EMPRESAS INDUSTRIALES,
-              RESIDENCIALES Y MUCHAS MÁS… </h3>
+            <h4>Ofrecemos servicios para eventos sociales, espectáculos, empresas comerciales, empresas industriales,
+              residenciales y mucho más...</h4>
           </div>
         </div>
         <div class="offers-tabs">
           <div class="row no-margin">
-            <div class="col-md-6 no-padding"> <img class="img-responsive" src="images/Imagen3.png" alt="" id="service-image">
+            <div class="col-md-6 no-padding"> <img class="img-responsive" src="images/Imagenes21.png" alt="" id="service-image">
               <div class="position-center-center col-xs-12 no-padding">
                 <ul class="nav nav-pills nav-stacked" role="tablist">
                   <li role="presentation" class="active"><a href="#generadores" role="tab" data-toggle="tab"> <img src="images/generador.png"
@@ -504,9 +426,9 @@
                     base de la máquina
                   </p>
                   <ul class="row">
-                    <li class="col-sm-6" style="background: #404852">
+                    <li class="col-sm-6">
                       <p>
-                        <img class="tabImg" src="images/generador.png" alt="">
+                        <img style="color: #404852" class="tabImg" src="images/generador - copia.png" alt="">
                         <div class="text">
                           <a>Generador de 15 KW</a>
                           <p>Potencia máxima 15kW/18,8kVA</p>
@@ -515,7 +437,7 @@
                     </li>
                     <li class="col-sm-6">
                       <p>
-                        <img class="tabImg" src="images/generador.png" alt="">
+                        <img class="tabImg" src="images/generador - copia.png" alt="">
                         <div class="text">
                           <a>Generador de 16 KW</a>
                           <p>Potencia máxima 16 kW/19 kVA</p>
@@ -524,7 +446,7 @@
                     </li>
                     <li class="col-sm-6">
                       <p>
-                        <img class="tabImg" src="images/generador.png" alt="">
+                        <img class="tabImg" src="images/generador - copia.png" alt="">
                         <div class="text">
                           <a>Generador de 30 KW</a>
                           <p>Potencia máxima 30 kW/37 kVA</p>
@@ -533,7 +455,7 @@
                     </li>
                     <li class="col-sm-6">
                       <p>
-                        <img class="tabImg" src="images/generador.png" alt="">
+                        <img class="tabImg" src="images/generador - copia.png" alt="">
                         <div class="text">
                           <a>Generador de 35 KW</a>
                           <p>Potencia máxima 35 kW/42 kVA</p>
@@ -542,7 +464,7 @@
                     </li>
                     <li class="col-sm-6">
                       <p>
-                        <img class="tabImg" src="images/generador.png" alt="">
+                        <img class="tabImg" src="images/generador - copia.png" alt="">
                         <div class="text">
                           <a>Generador de 40 KW</a>
                           <p>Potencia máxima 40 kW/ 45 kVA</p>
@@ -551,7 +473,7 @@
                     </li>
                     <li class="col-sm-6">
                       <p>
-                        <img class="tabImg" src="images/generador.png" alt="">
+                        <img class="tabImg" src="images/generador - copia.png" alt="">
                         <div class="text">
                           <a>Generador de 50 KW</a>
                           <p>Potencia máxima 50 kW/ 65 kVA</p>
@@ -560,7 +482,7 @@
                     </li>
                     <li class="col-sm-6">
                       <p>
-                        <img class="tabImg" src="images/generador.png" alt="">
+                        <img class="tabImg" src="images/generador - copia.png" alt="">
                         <div class="text">
                           <a>Generador de 100 KW</a>
                           <p>Potencia máxima 100 kW/114 kVA</p>
@@ -573,14 +495,15 @@
                 <!-- Torres -->
                 <div role="tabpanel" class="tab-pane animated-3s fadeInRight" id="torres">
                   <h4><small>Lo que ofrecemos</small> LOS MEJORES SERVICIOS QUE PODEMOS PROPORCIONAR</h4>
-                  <p>Nuestros productos</p>
+                  <p> Equipos con cabina para uso a la intemperie de motor diesel, tanque de combustible integrado a la
+                    base de la máquina</p>
                   <ul class="row">
                     <li class="col-sm-6">
                       <p>
-                        <img class="tabImg" src="images/street-lamp.png" alt="">
+                        <img class="tabImg" src="images/street-lamp - copia.png" alt="">
                         <div class="text">
-                          <a>Generador de 30 KW</a>
-                          <p>Potencia máxima 30 kW/37 kVA</p>
+                          <a>Torre de iluminación</a>
+                          <p>VT8 4x1000w HM, 8 kva</p>
                         </div>
                       </p>
                     </li>
@@ -631,16 +554,14 @@
         <div class="gallery">
           <ul class="col-6">
             <!-- Gallery Item -->
+
             <li>
               <div class="gal-item"> <img class="imgGallery" src="images/Imagenes20.png" alt="">
                 <div class="hover-info">
-                  <div class="position-center-center"><a href="images/Imagenes20.png" data-lighter> <i class="fa fa-search"></i>
-                    </a> <a href="#."> <i class="fa fa-link"></i> </a> </div>
+                  <div class="position-center-center"><a href="images/Imagenes20.png" data-lighter>
+                      <i class="fa fa-search"></i>
+                    </a> </div>
                 </div>
-              </div>
-              <div class="item-detail">
-                <h6>Hacienda Chaká</h6>
-                <span>By chris hemsworth</span>
               </div>
             </li>
 
@@ -649,12 +570,8 @@
               <div class="gal-item"> <img class="imgGallery" src="images/Imagenes12.png" alt="">
                 <div class="hover-info">
                   <div class="position-center-center"><a href="images/Imagenes12.png" data-lighter> <i class="fa fa-search"></i>
-                    </a> <a href="#."> <i class="fa fa-link"></i> </a> </div>
+                    </a></div>
                 </div>
-              </div>
-              <div class="item-detail">
-                <h6>Long Way Truck</h6>
-                <span>By chris hemsworth</span>
               </div>
             </li>
 
@@ -663,26 +580,8 @@
               <div class="gal-item"> <img class="imgGallery" src="images/Imagenes22.png" alt="">
                 <div class="hover-info">
                   <div class="position-center-center"><a href="images/Imagenes22.png" data-lighter> <i class="fa fa-search"></i>
-                    </a> <a href="#."> <i class="fa fa-link"></i> </a> </div>
+                    </a></div>
                 </div>
-              </div>
-              <div class="item-detail">
-                <h6>Long Way Truck</h6>
-                <span>By chris hemsworth</span>
-              </div>
-            </li>
-
-            <!-- Gallery Item -->
-            <li>
-              <div class="gal-item"> <img class="imgGallery" src="images/Imagenes23.png" alt="">
-                <div class="hover-info">
-                  <div class="position-center-center"><a href="images/Imagenes23.png" data-lighter> <i class="fa fa-search"></i>
-                    </a> <a href="#."> <i class="fa fa-link"></i> </a> </div>
-                </div>
-              </div>
-              <div class="item-detail">
-                <h6>Long Way Truck</h6>
-                <span>By chris hemsworth</span>
               </div>
             </li>
 
@@ -694,15 +593,8 @@
                     <a href="images/Imagenes10.png" data-lighter>
                       <i class="fa fa-search"></i>
                     </a>
-                    <a href="#.">
-                      <i class="fa fa-link"></i>
-                    </a>
                   </div>
                 </div>
-              </div>
-              <div class="item-detail">
-                <h6>Long Way Truck</h6>
-                <span>By chris hemsworth</span>
               </div>
             </li>
 
@@ -724,198 +616,155 @@
         </div>
       </section>
 
-
-
-      <!-- Testimonial -->
-      <section class="testimonial padding-top-100 padding-bottom-100">
+      <!--======= FOOTER =========-->
+      <footer class="no-margin-top">
         <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <!-- Heading -->
-              <div class="heading text-left">
-                <h5>Testimonial</h5>
-                <p>Phasellus imperdiet libero sit amet ante Donec convallis </p>
-              </div>
 
-              <!-- Avatars -->
-              <ul class="avatars">
-                <li><img src="images/avatar-1.jpg" alt=""></li>
-                <li><img src="images/avatar-2.jpg" alt=""></li>
-                <li><img src="images/avatar-3.jpg" alt=""></li>
-                <li><img src="images/avatar-4.jpg" alt=""></li>
-                <li><img src="images/avatar-5.jpg" alt=""></li>
-              </ul>
-
-              <!-- Test Slider -->
-              <div class="testi">
-                <div class="single-slide">
-
-                  <!-- Slider 1 -->
-                  <div class="media">
-                    <div class="in-testi"> <i class="fa fa-quote-left"></i>
-                      <div class="testi-name">
-                        <h5>James Bond</h5>
-                        <span>Happy Client</span>
-                      </div>
-                      <p>You wanna be where you can see our troubles are all the same. You wanna be where everybody
-                        knows Your name. Just two good ol'
-                        boys Wouldn't change if they could. </p>
-                    </div>
-                  </div>
-
-                  <!-- Slider 1 -->
-                  <div class="media">
-                    <div class="in-testi"> <i class="fa fa-quote-left"></i>
-                      <div class="testi-name">
-                        <h5>James Bond</h5>
-                        <span>Happy Client</span>
-                      </div>
-                      <p>You wanna be where you can see our troubles are all the same. You wanna be where everybody
-                        knows Your name. Just two good ol'
-                        boys Wouldn't change if they could. </p>
-                    </div>
-                  </div>
-
-                  <!-- Slider 1 -->
-                  <div class="media">
-                    <div class="in-testi"> <i class="fa fa-quote-left"></i>
-                      <div class="testi-name">
-                        <h5>James Bond</h5>
-                        <span>Happy Client</span>
-                      </div>
-                      <p>You wanna be where you can see our troubles are all the same. You wanna be where everybody
-                        knows Your name. Just two good ol'
-                        boys Wouldn't change if they could. </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Our Happy Clients -->
-            <div class="col-md-6">
-              <!-- Heading -->
-              <div class="heading text-left">
-                <h5>Our Happy Clients</h5>
-                <p>Phasellus imperdiet libero sit amet ante Donec convallis </p>
-              </div>
-
-              <!-- CLIENTS -->
-              <div class="clients-img">
-                <ul>
-                  <li> <a href="#."> <img src="images/c-img-1.png" class="img-responsive" alt=""> </a></li>
-                  <li> <a href="#."> <img src="images/c-img-2.png" class="img-responsive" alt=""> </a> </li>
-                  <li> <a href="#."> <img src="images/c-img-3.png" class="img-responsive" alt=""> </a></li>
-                  <li> <a href="#."> <img src="images/c-img-4.png" class="img-responsive" alt=""> </a> </li>
-                  <li> <a href="#."> <img src="images/c-img-5.png" class="img-responsive" alt=""> </a></li>
-                  <li> <a href="#."> <img src="images/c-img-6.png" class="img-responsive" alt=""> </a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-
-    <!--======= FOOTER =========-->
-    <footer class="no-margin-top">
-      <div class="container">
-
-        <div class="footer-info">
-          <div class="container">
-            <div class="row">
-              <div id="Contactanos">
-                <!-- About -->
-                <div class="col-md-12 col-sm-12 col-xs-12" style="display: flex; justify-content: center;">
-                  <img class="margin-bottom-30" src="images/Logo_rentamaq.png" alt="" width="200px" height="100px">
-                </div>
-              </div>
-
+          <div class="footer-info">
+            <div class="container">
               <div class="row">
-                <div class="col-md-6 col-sm-12 col-xs-12">
-                  <section class="contact-page">
-                    <!-- MAP -->
-                    <div id="map"></div>
-                  </section>
+                <div id="Contactanos">
+                  <!-- About -->
+                  <div class="col-md-12 col-sm-12 col-xs-12" style="display: flex; justify-content: center;">
+                    <img class="margin-bottom-30" src="images/Logo_rentamaq.png" alt="" width="200px" height="100px">
+                  </div>
                 </div>
-                <!--======= Footer Info =========-->
-                <div class="col-md-6 col-sm-12 col-xs-12">
-                  <div class="foot-info-con">
-                    <ul>
 
-                      <!-- Call Us Now -->
-                      <li class="col-md-3 col-sm-6 col-xs-6">
-                        <div class="media-left">
-                          <div class="icon"> <i class="icon-call-in"></i></div>
-                        </div>
-                        <div class="media-body">
-                          <h6>Llamanos ahora </h6>
-                          <p>+52 ( 999 ) 30 86 849</p>
-                        </div>
-                      </li>
+                <div class="row">
+                  <div class="col-md-6 col-sm-12 col-xs-12">
+                    <section class="contact-page">
+                      <!-- MAP -->
+                      <div id="map"></div>
+                    </section>
+                  </div>
+                  <!--======= Footer Info =========-->
+                  <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="foot-info-con">
+                      <ul>
 
-                      <!-- Email us -->
-                      <li class="col-md-3 col-sm-6 col-xs-6">
-                        <div class="media-left">
-                          <div class="icon"> <i class="icon-envelope-open"></i></div>
-                        </div>
-                        <div class="media-body">
-                          <h6>Contactanos</h6>
-                          <p>info@mail.com</p>
-                        </div>
-                      </li>
-                      <!-- Opening Time -->
-                      <li class="col-md-3 col-sm-6 col-xs-6">
-                        <div class="media-left">
-                          <div class="icon"> <i class="fab fa-facebook-f"></i></div>
-                        </div>
-                        <div class="media-body">
-                          <h6>Facebook </h6>
-                          <p>RENTAMAQ</p>
-                        </div>
-                      </li>
-                    </ul>
+                        <!-- Call Us Now -->
+                        <li class="col-md-3 col-sm-6 col-xs-6">
+                          <div class="media-left">
+                            <div class="icon"> <i class="icon-call-in"></i></div>
+                          </div>
+                          <div class="media-body">
+                            <h6>Llamanos ahora </h6>
+                            <p>+52 ( 999 ) 30 86 849</p>
+                          </div>
+                        </li>
+
+                        <!-- Email us -->
+                        <li class="col-md-3 col-sm-6 col-xs-6" data-toggle="modal" data-target="#exampleModal">
+                          <div class="media-left">
+                            <div class="icon"> <i class="icon-envelope-open"></i></div>
+                          </div>
+                          <div class="media-body">
+                            <h6>Contactanos</h6>
+                            <p>contacto@rentamaqsur.com</p>
+                          </div>
+                        </li>
+                        <!-- Opening Time -->
+                        <li class="col-md-3 col-sm-6 col-xs-6">
+                          <div class="media-left">
+                            <div class="icon"> <i class="fab fa-facebook-f"></i></div>
+                          </div>
+                          <div class="media-body">
+                            <h6>Facebook </h6>
+                            <p>RENTAMAQ</p>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-    </footer>
+      </footer>
 
-    <!--======= RIGHTS =========-->
-    <div class="rights">
-      <div class="container">
-        <p>Copyrights &copy; 2018 All Rights Reserved </p>
+      <!--======= RIGHTS =========-->
+      <div class="rights">
+        <div class="container">
+          <p>Copyrights &copy; 2018 All Rights Reserved </p>
+        </div>
       </div>
     </div>
-  </div>
 
-  <script src="js/jquery-1.12.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/own-menu.js"></script>
-  <script src="js/jquery.isotope.min.js"></script>
-  <script src="js/jquery.lighter.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
+    <!-- ============= MODAL =============== -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header" style="display: flex; flex-direction: column-reverse; ">
 
-  <!-- RS5.0 Core JS Files -->
-  <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
-  <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
-  <script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
-  <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-  <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-  <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-  <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
-  <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-  <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-  <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-  <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
+            <div class="heading">
+              <h5>Contactanos</h5>
+            </div>
+            <button style="text-align: right;" type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <!-- FORM -->
+            <form id="contact_form" class="contact-form" method="post" onSubmit="return false" action="./php/submit.php">
+              <ul class="row">
+                <li class="col-md-6 col-sm-12 col-xs-12">
+                  <label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Tu nombre">
+                  </label>
+                </li>
+                <li class="col-md-6 col-sm-12 col-xs-12">
+                  <label>
+                    <input type="text" class="form-control" name="email" id="email" placeholder="Correo electrónico">
+                  </label>
+                </li>
+                <li class="col-md-6 col-sm-12 col-xs-12">
+                  <label>
+                    <input type="text" class="form-control" name="company" id="company" placeholder="Teléfono">
+                  </label>
+                </li>
+                <li class="col-md-12 col-sm-12 col-xs-12">
+                  <label>
+                    <textarea class="form-control" name="message" id="message" rows="5" placeholder="Descripción"></textarea>
+                  </label>
+                </li>
+                <li class="col-md-12 col-sm-12 col-xs-12">
+                  <button type="submit" value="submit" class="btn" id="btn_submit" onClick="proceed();">Enviar
+                    Mensaje <span><i class="ion-ios-arrow-thin-right"></i></span></button>
+                </li>
+              </ul>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
-  <!-- Begin map script-->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCf0dPCQ0C7oVF0WFKhuyz7v7oWei3vFPI "></script>
-  <script src="js/main.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/own-menu.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.lighter.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+    <!-- RS5.0 Core JS Files -->
+    <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
+    <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
+
+    <!-- Begin map script-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCf0dPCQ0C7oVF0WFKhuyz7v7oWei3vFPI "></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
