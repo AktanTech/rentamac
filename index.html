@@ -7,13 +7,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="M_Adnan">
-  <title>Auril HTML5 Template</title>
-
+  <title>Rentamaq</title>
+  <link rel="icon" type="image/png" href="./images/rayito96.png" />
   <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
   <!-- RS5.0 Layers and Navigation Styles -->
   <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
   <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css" />
 
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css" />
   <!-- Bootstrap Core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -62,31 +65,33 @@
               </div>
               <div class="media-body">
                 <h6>Llamanos ahora</h6>
-                <p>+52 ( 999 ) 45 78 678 </p>
+                <p>+52 ( 999 ) 30 86 849 </p>
               </div>
             </li>
 
             <!-- Email us -->
             <li>
-              <div class="media-left">
+              <div class="media-left" data-toggle="modal" data-target="#exampleModal">
                 <div class="icon"> <i class="icon-envelope-open"></i></div>
               </div>
               <div class="media-body">
                 <h6>Contactanos</h6>
-                <p>info@mail.com</p>
+                <p>contacto@rentamaqsur.com</p>
               </div>
             </li>
 
             <!-- Opening Time -->
-            <li>
-              <div class="media-left">
-                <div class="icon"> <i class="fab fa-facebook-f"></i></div>
-              </div>
-              <div class="media-body">
-                <h6>Facebook </h6>
-                <p>Mon - Sat : 9am to 7pm</p>
-              </div>
-            </li>
+            <a href="https://www.facebook.com/DIEGO661213/" target="_blank">
+              <li>
+                <div class="media-left">
+                  <div class="icon"> <i class="fab fa-facebook-f"></i></div>
+                </div>
+                <div class="media-body">
+                  <h6>Facebook </h6>
+                  <p>RENTAMAQ</p>
+                </div>
+              </li>
+            </a>
           </ul>
         </div>
       </div>
@@ -96,10 +101,10 @@
         <div class="container">
           <ul class="nav ownmenu">
             <li class="active"> <a href="index.html">Inicio</a> </li>
-            <li> <a href="about.html">Nosotros</a> </li>
-            <li> <a href="services.html">Servicios</a> </li>
-            <li> <a href="work.html">Portafolio</a> </li>
-            <li> <a href="contact.html">Contactanos</a> </li>
+            <li> <a href="#Nosotros">Nosotros</a> </li>
+            <li> <a href="#Servicios">Servicios</a> </li>
+            <li> <a href="#Portafolio">Portafolio</a> </li>
+            <li> <a href="#Contactanos">Contactanos</a> </li>
           </ul>
 
           <!-- GET A QUOTES -->
@@ -268,209 +273,337 @@
       </div>
     </div>
 
-    
+
 
     <!-- Content -->
     <div id="content">
 
-        <section class="wheels-handle padding-bottom-100" style="padding-top: 8rem;">
-            <div class="container">
-              <!-- Heading -->
-              <div class="heading text-center">
-                <h5>Wheels We Handle</h5>
-                <hr>
-                <p>Phasellus imperdiet libero sit amet ante Donec convallis elementum leum </p>
-              </div>
-            </div>
-            <div class="offers-tabs">
-              <div class="row no-margin">
-                <div class="col-md-6 no-padding"> <img class="img-responsive" src="images/offer-img.jpg" alt="">
-                  <div class="position-center-center col-xs-12 no-padding">
-                    <ul class="nav nav-pills nav-stacked" role="tablist">
-                      <li role="presentation" class="active"><a href="#luxury" role="tab" data-toggle="tab"> <img src="images/offer-icon-1.png"
-                            alt=""><span> Luxury Car</span></a></li>
-                      <li role="presentation"><a href="#trucks" role="tab" data-toggle="tab"><img src="images/offer-icon-2.png"
-                            alt=""><span>Trucks Services</span></a></li>
-                      <li role="presentation"><a href="#sports" role="tab" data-toggle="tab"><img src="images/offer-icon-3.png"
-                            alt=""><span>Sports Car</span></a></li>
-                    </ul>
+      <!-- TEAM -->
+      <section id="Nosotros" class="light-gray-bg" style="padding-top: 7rem;">
+        <div class="container">
+          <!-- Heading -->
+          <div class="heading text-center" id="headAbout">
+            <h5>Acerca de nosotros</h5>
+            <hr>
+            <h4>Somos una empresa yucateca ofreciendo soluciones a los problemas de energía de nuestros
+              clientes. <br>
+              El espíritu de RENTAMAQ es buscar siempre la eficiencia y la satisfacción del cliente </h4>
+          </div>
+
+          <!-- Info About-->
+          <div id="accordion">
+            <div class="row">
+              <div class="col-md-6 container-info-top-us">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link buttonUs" data-toggle="collapse" data-target="#collapseOne"
+                        aria-expanded="false" aria-controls="collapseOne">
+                        Misión
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseOne" class="collapsed collapse in" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body infoUs">
+                      Brindar solución de energía a la medida, excelencia y calidad en servicio.
+                    </div>
                   </div>
                 </div>
-                <div class="col-md-6">
-      
-                  <!-- Tab panes -->
-                  <div class="tab-content">
-      
-                    <!-- Luxury Cars -->
-                    <div role="tabpanel" class="tab-pane animated-3s fadeInRight active" id="luxury">
-                      <h4><small>What We Offer</small> Best Services We Can Provide</h4>
-                      <p>Suspendisse nec magna vitae est scelerisque blandit. Nam tempus vestibulums risus quis congue.
-                        Vestibulum fermentum sollicitudin posuere. </p>
-                      <ul class="row">
-                        <li class="col-sm-6">
-                          <p><span><img src="images/offer-icon-1-1.png" alt=""></span> Complete Computer Diagnostics</p>
+              </div>
+              <div class="col-md-6 container-info-top-us">
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link buttonUs" data-toggle="collapse" data-target="#collapseTwo"
+                        aria-expanded="true" aria-controls="collapseTwo">
+                        Visión
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapsed collapse in" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body infoUs">
+                      Ofrecer soluciones a través de innovación constante.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 container-info-bottom-us">
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link buttonUs" data-toggle="collapse" data-target="#collapseThree"
+                        aria-expanded="true" aria-controls="collapseTwo">
+                        ¿Qué nos caracteriza?
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapsed collapse in" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body infoUs">
+                      Experiencia y Excelencia en Potencia de 7 kW a 125 kW <br>
+                      <ul>
+                        <li>Tenemos la solución óptima para cada proyecto.</li>
+                        <li>Tenemos entrega inmediata y a su medida
+                          <!--semana, mes dependiendo del proyecto u equipo-->
                         </li>
-                        <li class="col-sm-6">
-                          <p><span><img src="images/offer-icon-1-2.png" alt=""></span> Complete Safety Analysis</p>
-                        </li>
-                        <li class="col-sm-6">
-                          <p><span><img src="images/offer-icon-1-3.png" alt=""></span> Fuel System Services</p>
-                        </li>
-                        <li class="col-sm-6">
-                          <p><span><img src="images/offer-icon-1-4.png" alt=""></span> Steering and Suspensions</p>
-                        </li>
-                        <li class="col-sm-6">
-                          <p><span><img src="images/offer-icon-1-5.png" alt=""> </span> Brake Repair Specialists</p>
-                        </li>
-                        <li class="col-sm-6">
-                          <p><span><img src="images/offer-icon-1-6.png" alt=""></span> Mufflers and Exhaust Systems</p>
-                        </li>
+                        <li>Entrega en las instalaciones del cliente.</li>
                       </ul>
                     </div>
-      
-                    <!-- Trucks -->
-                    <div role="tabpanel" class="tab-pane animated-3s fadeInRight" id="trucks">
-                      <h4><small>What We Offer</small> Best Services We Can Provide For Trucks</h4>
-                      <p>Suspendisse nec magna vitae est scelerisque blandit. Nam tempus vestibulums risus quis congue.
-                        Vestibulum fermentum sollicitudin posuere. </p>
-                      <ul class="row">
-                        <li class="col-sm-6">
-                          <p><span><img src="images/offer-icon-1-1.png" alt=""></span> Complete Computer Diagnostics</p>
-                        </li>
-                        <li class="col-sm-6">
-                          <p><span><img src="images/offer-icon-1-2.png" alt=""></span> Complete Safety Analysis</p>
-                        </li>
-                        <li class="col-sm-6">
-                          <p><span><img src="images/offer-icon-1-3.png" alt=""></span> Fuel System Services</p>
-                        </li>
-                        <li class="col-sm-6">
-                          <p><span><img src="images/offer-icon-1-4.png" alt=""></span> Steering and Suspensions</p>
-                        </li>
-                        <li class="col-sm-6">
-                          <p><span><img src="images/offer-icon-1-5.png" alt=""> </span> Brake Repair Specialists</p>
-                        </li>
-                        <li class="col-sm-6">
-                          <p><span><img src="images/offer-icon-1-6.png" alt=""></span> Mufflers and Exhaust Systems</p>
-                        </li>
-                      </ul>
-                    </div>
-      
-                    <!-- Sports Cars -->
-                    <div role="tabpanel" class="tab-pane animated-3s fadeInRight" id="sports">
-                      <h4><small>What We Offer</small> Best Services We Can Provide For Sports Cars</h4>
-                      <p>Suspendisse nec magna vitae est scelerisque blandit. Nam tempus vestibulums risus quis congue.
-                        Vestibulum fermentum sollicitudin posuere. </p>
-                      <ul class="row">
-                        <li class="col-sm-6">
-                          <p><span><img src="images/offer-icon-1-1.png" alt=""></span> Complete Computer Diagnostics</p>
-                        </li>
-                        <li class="col-sm-6">
-                          <p><span><img src="images/offer-icon-1-2.png" alt=""></span> Complete Safety Analysis</p>
-                        </li>
-                        <li class="col-sm-6">
-                          <p><span><img src="images/offer-icon-1-3.png" alt=""></span> Fuel System Services</p>
-                        </li>
-                        <li class="col-sm-6">
-                          <p><span><img src="images/offer-icon-1-4.png" alt=""></span> Steering and Suspensions</p>
-                        </li>
-                        <li class="col-sm-6">
-                          <p><span><img src="images/offer-icon-1-5.png" alt=""> </span> Brake Repair Specialists</p>
-                        </li>
-                        <li class="col-sm-6">
-                          <p><span><img src="images/offer-icon-1-6.png" alt=""></span> Mufflers and Exhaust Systems</p>
-                        </li>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 container-info-bottom-us">
+                <div class="card">
+                  <div class="card-header" id="headingFour">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link buttonUs" data-toggle="collapse" data-target="#collapseFour"
+                        aria-expanded="true" aria-controls="collapseTwo">
+                        ¿Por qué elegirnos?
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseFour" class="collapsed collapse in" aria-labelledby="headingFour" data-parent="#accordion">
+                    <div class="card-body infoUs">
+                      <ul>
+                        <li>Para el respaldar su energía eléctrica.</li>
+                        <li>Cuenta con nuestro soporte 24 hrs</li>
                       </ul>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </section>
-      
-      <!-- Gallery -->
-      <section class="light-gray-bg padding-top-100 padding-bottom-100">
+            <!-- <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Collapsible Group Item #3
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                  <div class="card-body">
+                    Collapse 3
+                  </div>
+                </div>
+              </div> -->
+          </div>
+        </div>
+      </section>
+
+      <section id="Servicios" class="wheels-handle padding-bottom-100" style="padding-top: 7rem;">
         <div class="container">
           <!-- Heading -->
           <div class="heading text-center">
-            <h5>Latest Work</h5>
+            <h5>Nuestros Servicios</h5>
             <hr>
-            <p>Phasellus imperdiet libero sit amet ante Donec convallis elementum leum </p>
+            <h4>Ofrecemos servicios para eventos sociales, espectáculos, empresas comerciales, empresas industriales,
+              residenciales y mucho más...</h4>
+          </div>
+        </div>
+        <div class="offers-tabs">
+          <div class="row no-margin">
+            <div class="col-md-6 no-padding"> <img class="img-responsive" src="images/Imagenes21.png" alt="" id="service-image">
+              <div class="position-center-center col-xs-12 no-padding">
+                <ul class="nav nav-pills nav-stacked" role="tablist">
+                  <li role="presentation" class="active"><a href="#generadores" role="tab" data-toggle="tab"> <img src="images/generador.png"
+                        alt="" class="iconService"><span> Generadores Electricos</span></a></li>
+                  <li role="presentation"><a href="#torres" role="tab" data-toggle="tab"><img src="images/street-lamp.png"
+                        alt="" class="iconService"><span>Torres de Iluminación</span></a></li>
+                  <li role="presentation"><a href="#remolques" role="tab" data-toggle="tab"><img src="images/caravana.png"
+                        alt="" class="iconService"><span>Fabricacion de remolques</span></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6">
+
+              <!-- Tab panes -->
+              <div class="tab-content">
+
+                <!-- Generadores Electricos -->
+                <div role="tabpanel" class="tab-pane animated-3s fadeInRight active" id="generadores">
+                  <h4><small>Lo que ofrecemos</small> Los mejores servicios que podemos proporcionar</h4>
+                  <p> Equipos con cabina para uso a la intemperie de motor diesel, tanque de combustible integrado a la
+                    base de la máquina
+                  </p>
+                  <ul class="row">
+                    <li class="col-sm-6">
+                      <p>
+                        <img style="color: #404852" class="tabImg" src="images/generador - copia.png" alt="">
+                        <div class="text">
+                          <a>Generador de 15 KW</a>
+                          <p>Potencia máxima 15kW/18,8kVA</p>
+                        </div>
+                      </p>
+                    </li>
+                    <li class="col-sm-6">
+                      <p>
+                        <img class="tabImg" src="images/generador - copia.png" alt="">
+                        <div class="text">
+                          <a>Generador de 16 KW</a>
+                          <p>Potencia máxima 16 kW/19 kVA</p>
+                        </div>
+                      </p>
+                    </li>
+                    <li class="col-sm-6">
+                      <p>
+                        <img class="tabImg" src="images/generador - copia.png" alt="">
+                        <div class="text">
+                          <a>Generador de 30 KW</a>
+                          <p>Potencia máxima 30 kW/37 kVA</p>
+                        </div>
+                      </p>
+                    </li>
+                    <li class="col-sm-6">
+                      <p>
+                        <img class="tabImg" src="images/generador - copia.png" alt="">
+                        <div class="text">
+                          <a>Generador de 35 KW</a>
+                          <p>Potencia máxima 35 kW/42 kVA</p>
+                        </div>
+                      </p>
+                    </li>
+                    <li class="col-sm-6">
+                      <p>
+                        <img class="tabImg" src="images/generador - copia.png" alt="">
+                        <div class="text">
+                          <a>Generador de 40 KW</a>
+                          <p>Potencia máxima 40 kW/ 45 kVA</p>
+                        </div>
+                      </p>
+                    </li>
+                    <li class="col-sm-6">
+                      <p>
+                        <img class="tabImg" src="images/generador - copia.png" alt="">
+                        <div class="text">
+                          <a>Generador de 50 KW</a>
+                          <p>Potencia máxima 50 kW/ 65 kVA</p>
+                        </div>
+                      </p>
+                    </li>
+                    <li class="col-sm-6">
+                      <p>
+                        <img class="tabImg" src="images/generador - copia.png" alt="">
+                        <div class="text">
+                          <a>Generador de 100 KW</a>
+                          <p>Potencia máxima 100 kW/114 kVA</p>
+                        </div>
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- Torres -->
+                <div role="tabpanel" class="tab-pane animated-3s fadeInRight" id="torres">
+                  <h4><small>Lo que ofrecemos</small> LOS MEJORES SERVICIOS QUE PODEMOS PROPORCIONAR</h4>
+                  <p> Equipos con cabina para uso a la intemperie de motor diesel, tanque de combustible integrado a la
+                    base de la máquina</p>
+                  <ul class="row">
+                    <li class="col-sm-6">
+                      <p>
+                        <img class="tabImg" src="images/street-lamp - copia.png" alt="">
+                        <div class="text">
+                          <a>Torre de iluminación</a>
+                          <p>VT8 4x1000w HM, 8 kva</p>
+                        </div>
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- Remolques -->
+                <div role="tabpanel" class="tab-pane animated-3s fadeInRight" id="remolques">
+                  <h4><small>Lo que ofrecemos</small> LOS MEJORES SERVICIOS QUE PODEMOS PROPORCIONAR</h4>
+                  <p>Productos hechos a tu medida </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery -->
+      <section id="Portafolio" class="light-gray-bg padding-bottom-100" style="padding-top: 4rem;">
+        <div class="container">
+          <!-- Heading -->
+          <div class="heading text-center">
+            <h5>Últimos trabajos</h5>
+            <hr>
+            <p></p>
           </div>
         </div>
         <div class="gallery">
           <ul class="col-6">
             <!-- Gallery Item -->
+
             <li>
-              <div class="gal-item"> <img src="images/img-1.jpg" alt="">
+              <div class="gal-item"> <img class="imgGallery" src="images/Imagenes20.png" alt="">
                 <div class="hover-info">
-                  <div class="position-center-center"><a href="images/img-1.jpg" data-lighter> <i class="fa fa-search"></i>
-                    </a> <a href="#."> <i class="fa fa-link"></i> </a> </div>
+                  <div class="position-center-center"><a href="images/Imagenes20.png" data-lighter>
+                      <i class="fa fa-search"></i>
+                    </a> </div>
                 </div>
-              </div>
-              <div class="item-detail">
-                <h6>Long Way Truck</h6>
-                <span>By chris hemsworth</span>
               </div>
             </li>
 
             <!-- Gallery Item -->
             <li>
-              <div class="gal-item"> <img src="images/img-2.jpg" alt="">
+              <div class="gal-item"> <img class="imgGallery" src="images/Imagenes12.png" alt="">
                 <div class="hover-info">
-                  <div class="position-center-center"><a href="images/img-2.jpg" data-lighter> <i class="fa fa-search"></i>
-                    </a> <a href="#."> <i class="fa fa-link"></i> </a> </div>
+                  <div class="position-center-center"><a href="images/Imagenes12.png" data-lighter> <i class="fa fa-search"></i>
+                    </a></div>
                 </div>
-              </div>
-              <div class="item-detail">
-                <h6>Long Way Truck</h6>
-                <span>By chris hemsworth</span>
               </div>
             </li>
 
             <!-- Gallery Item -->
             <li>
-              <div class="gal-item"> <img src="images/img-3.jpg" alt="">
+              <div class="gal-item"> <img class="imgGallery" src="images/Imagenes22.png" alt="">
                 <div class="hover-info">
-                  <div class="position-center-center"><a href="images/img-3.jpg" data-lighter> <i class="fa fa-search"></i>
-                    </a> <a href="#."> <i class="fa fa-link"></i> </a> </div>
+                  <div class="position-center-center"><a href="images/Imagenes22.png" data-lighter> <i class="fa fa-search"></i>
+                    </a></div>
                 </div>
-              </div>
-              <div class="item-detail">
-                <h6>Long Way Truck</h6>
-                <span>By chris hemsworth</span>
               </div>
             </li>
 
             <!-- Gallery Item -->
             <li>
-              <div class="gal-item"> <img src="images/img-4.jpg" alt="">
+              <div class="gal-item"> <img class="imgGallery" src="images/Imagenes10.png" alt="">
                 <div class="hover-info">
-                  <div class="position-center-center"><a href="images/img-4.jpg" data-lighter> <i class="fa fa-search"></i>
-                    </a> <a href="#."> <i class="fa fa-link"></i> </a> </div>
+                  <div class="position-center-center">
+                    <a href="images/Imagenes10.png" data-lighter>
+                      <i class="fa fa-search"></i>
+                    </a>
+                  </div>
                 </div>
-              </div>
-              <div class="item-detail">
-                <h6>Long Way Truck</h6>
-                <span>By chris hemsworth</span>
               </div>
             </li>
 
             <!-- Gallery Item -->
             <li>
-              <div class="gal-item"> <img src="images/img-5.jpg" alt="">
+              <div class="gal-item"> <img class="imgGallery" src="images/Imagenes11.png" alt="">
                 <div class="hover-info">
-                  <div class="position-center-center"><a href="images/img-5.jpg" data-lighter> <i class="fa fa-search"></i>
-                    </a> <a href="#."> <i class="fa fa-link"></i> </a> </div>
+                  <div class="position-center-center">
+                    <a href="images/Imagenes11.png" data-lighter>
+                      <i class="fa fa-search"></i>
+                    </a>
+                  </div>
                 </div>
               </div>
-              <div class="item-detail">
-                <h6>Long Way Truck</h6>
-                <span>By chris hemsworth</span>
-              </div>
             </li>
-
             <!-- Gallery Item -->
             <li>
+              <div class="gal-item"> <img class="imgGallery" src="images/Imagenes12.png" alt="">
+                <div class="hover-info">
+                  <div class="position-center-center">
+                    <a href="images/Imagenes12.png" data-lighter>
+                      <i class="fa fa-search"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- Gallery Item -->
+            <!-- <li>
               <div class="gal-item"> <img src="images/img-6.jpg" alt="">
                 <div class="hover-info">
                   <div class="position-center-center"><a href="images/img-6.jpg" data-lighter> <i class="fa fa-search"></i>
@@ -481,279 +614,161 @@
                 <h6>Long Way Truck</h6>
                 <span>By chris hemsworth</span>
               </div>
-            </li>
+            </li> -->
+
           </ul>
         </div>
       </section>
 
-      <!-- TEAM -->
-      <section class="padding-top-100 padding-bottom-100">
+      <!--======= FOOTER =========-->
+      <footer class="no-margin-top">
         <div class="container">
-          <!-- Heading -->
-          <div class="heading text-center">
-            <h5>Team Members</h5>
-            <hr>
-            <p>Phasellus imperdiet libero sit amet ante Donec convallis elementum leum </p>
-          </div>
 
-          <!-- TEAM -->
-          <div class="team">
-            <div class="row">
-
-              <!-- MEMBER -->
-              <div class="col-md-3 col-sm-4 col-xs-6">
-                <article>
-                  <img class="img-responsive" src="images/member-1.jpg" alt="">
-                  <h5 class="team-name">Stevan Smith</h5>
-                  <div class="team-hover">
-                    <h5>Paul Walker</h5>
-                    <span>Engine Specialist</span>
-                    <p><i class="icon-envelope-open"></i> Support@Info.Com</p>
-                    <p><i class="icon-call-in"></i> +(800) 23-145-451</p>
-                    <ul class="social">
-                      <li><a href="#."><i class="fa fa-facebook"></i></a></li>
-                      <li><a href="#."><i class="fa fa-twitter"></i></a></li>
-                      <li><a href="#."><i class="fa fa-google-plus"></i></a></li>
-                    </ul>
+          <div class="footer-info">
+            <div class="container">
+              <div class="row">
+                <div id="Contactanos">
+                  <!-- About -->
+                  <div class="col-md-12 col-sm-12 col-xs-12" style="display: flex; justify-content: center;">
+                    <img class="margin-bottom-30" src="images/Logo_rentamaq.png" alt="" width="200px" height="100px">
                   </div>
-                </article>
-              </div>
+                </div>
 
-              <!-- MEMBER -->
-              <div class="col-md-3 col-sm-4 col-xs-6">
-                <article> <img class="img-responsive" src="images/member-2.jpg" alt="">
-                  <h5 class="team-name">Paul Walker</h5>
-                  <div class="team-hover">
-                    <h5>Paul Walker</h5>
-                    <span>Engine Specialist</span>
-                    <p><i class="icon-envelope-open"></i> Support@Info.Com</p>
-                    <p><i class="icon-call-in"></i> +(800) 23-145-451</p>
-                    <ul class="social">
-                      <li><a href="#."><i class="fa fa-facebook"></i></a></li>
-                      <li><a href="#."><i class="fa fa-twitter"></i></a></li>
-                      <li><a href="#."><i class="fa fa-google-plus"></i></a></li>
-                    </ul>
+                <div class="row">
+                  <div class="col-md-6 col-sm-12 col-xs-12">
+                    <section class="contact-page">
+                      <!-- MAP -->
+                      <div id="map"></div>
+                    </section>
                   </div>
-                </article>
-              </div>
+                  <!--======= Footer Info =========-->
+                  <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="foot-info-con">
+                      <ul>
 
-              <!-- MEMBER -->
-              <div class="col-md-3 col-sm-4 col-xs-6">
-                <article> <img class="img-responsive" src="images/member-3.jpg" alt="">
-                  <h5 class="team-name">Luck Walker</h5>
-                  <div class="team-hover">
-                    <h5>Paul Walker</h5>
-                    <span>Engine Specialist</span>
-                    <p><i class="icon-envelope-open"></i> Support@Info.Com</p>
-                    <p><i class="icon-call-in"></i> +(800) 23-145-451</p>
-                    <ul class="social">
-                      <li><a href="#."><i class="fa fa-facebook"></i></a></li>
-                      <li><a href="#."><i class="fa fa-twitter"></i></a></li>
-                      <li><a href="#."><i class="fa fa-google-plus"></i></a></li>
-                    </ul>
-                  </div>
-                </article>
-              </div>
+                        <!-- Call Us Now -->
+                        <li class="col-md-3 col-sm-6 col-xs-6">
+                          <div class="media-left">
+                            <div class="icon"> <i class="icon-call-in"></i></div>
+                          </div>
+                          <div class="media-body">
+                            <h6>Llamanos ahora </h6>
+                            <p>+52 ( 999 ) 30 86 849</p>
+                          </div>
+                        </li>
 
-              <!-- MEMBER -->
-              <div class="col-md-3 col-sm-4 col-xs-6">
-                <article> <img class="img-responsive" src="images/member-4.jpg" alt="">
-                  <h5 class="team-name">Brett Connor</h5>
-                  <div class="team-hover">
-                    <h5>Paul Walker</h5>
-                    <span>Engine Specialist</span>
-                    <p><i class="icon-envelope-open"></i> Support@Info.Com</p>
-                    <p><i class="icon-call-in"></i> +(800) 23-145-451</p>
-                    <ul class="social">
-                      <li><a href="#."><i class="fa fa-facebook"></i></a></li>
-                      <li><a href="#."><i class="fa fa-twitter"></i></a></li>
-                      <li><a href="#."><i class="fa fa-google-plus"></i></a></li>
-                    </ul>
-                  </div>
-                </article>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Testimonial -->
-      <section class="testimonial padding-top-100 padding-bottom-100">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <!-- Heading -->
-              <div class="heading text-left">
-                <h5>Testimonial</h5>
-                <p>Phasellus imperdiet libero sit amet ante Donec convallis </p>
-              </div>
-
-              <!-- Avatars -->
-              <ul class="avatars">
-                <li><img src="images/avatar-1.jpg" alt=""></li>
-                <li><img src="images/avatar-2.jpg" alt=""></li>
-                <li><img src="images/avatar-3.jpg" alt=""></li>
-                <li><img src="images/avatar-4.jpg" alt=""></li>
-                <li><img src="images/avatar-5.jpg" alt=""></li>
-              </ul>
-
-              <!-- Test Slider -->
-              <div class="testi">
-                <div class="single-slide">
-
-                  <!-- Slider 1 -->
-                  <div class="media">
-                    <div class="in-testi"> <i class="fa fa-quote-left"></i>
-                      <div class="testi-name">
-                        <h5>James Bond</h5>
-                        <span>Happy Client</span>
-                      </div>
-                      <p>You wanna be where you can see our troubles are all the same. You wanna be where everybody
-                        knows Your name. Just two good ol'
-                        boys Wouldn't change if they could. </p>
-                    </div>
-                  </div>
-
-                  <!-- Slider 1 -->
-                  <div class="media">
-                    <div class="in-testi"> <i class="fa fa-quote-left"></i>
-                      <div class="testi-name">
-                        <h5>James Bond</h5>
-                        <span>Happy Client</span>
-                      </div>
-                      <p>You wanna be where you can see our troubles are all the same. You wanna be where everybody
-                        knows Your name. Just two good ol'
-                        boys Wouldn't change if they could. </p>
-                    </div>
-                  </div>
-
-                  <!-- Slider 1 -->
-                  <div class="media">
-                    <div class="in-testi"> <i class="fa fa-quote-left"></i>
-                      <div class="testi-name">
-                        <h5>James Bond</h5>
-                        <span>Happy Client</span>
-                      </div>
-                      <p>You wanna be where you can see our troubles are all the same. You wanna be where everybody
-                        knows Your name. Just two good ol'
-                        boys Wouldn't change if they could. </p>
+                        <!-- Email us -->
+                        <li class="col-md-3 col-sm-6 col-xs-6" data-toggle="modal" data-target="#exampleModal">
+                          <div class="media-left">
+                            <div class="icon"> <i class="icon-envelope-open"></i></div>
+                          </div>
+                          <div class="media-body">
+                            <h6>Contactanos</h6>
+                            <p>contacto@rentamaqsur.com</p>
+                          </div>
+                        </li>
+                        <!-- Opening Time -->
+                        <li class="col-md-3 col-sm-6 col-xs-6">
+                          <div class="media-left">
+                            <div class="icon"> <i class="fab fa-facebook-f"></i></div>
+                          </div>
+                          <div class="media-body">
+                            <h6>Facebook </h6>
+                            <p>RENTAMAQ</p>
+                          </div>
+                        </li>
+                      </ul>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-
-            <!-- Our Happy Clients -->
-            <div class="col-md-6">
-              <!-- Heading -->
-              <div class="heading text-left">
-                <h5>Our Happy Clients</h5>
-                <p>Phasellus imperdiet libero sit amet ante Donec convallis </p>
-              </div>
-
-              <!-- CLIENTS -->
-              <div class="clients-img">
-                <ul>
-                  <li> <a href="#."> <img src="images/c-img-1.png" class="img-responsive" alt=""> </a></li>
-                  <li> <a href="#."> <img src="images/c-img-2.png" class="img-responsive" alt=""> </a> </li>
-                  <li> <a href="#."> <img src="images/c-img-3.png" class="img-responsive" alt=""> </a></li>
-                  <li> <a href="#."> <img src="images/c-img-4.png" class="img-responsive" alt=""> </a> </li>
-                  <li> <a href="#."> <img src="images/c-img-5.png" class="img-responsive" alt=""> </a></li>
-                  <li> <a href="#."> <img src="images/c-img-6.png" class="img-responsive" alt=""> </a></li>
-                </ul>
-              </div>
-            </div>
           </div>
+      </footer>
+
+      <!--======= RIGHTS =========-->
+      <div class="rights">
+        <div class="container">
+          <p>Copyrights &copy; 2018 All Rights Reserved </p>
         </div>
-      </section>
-    </div>
-
-    <!--======= FOOTER =========-->
-    <footer class="no-margin-top">
-      <div class="container">
-
-        <div class="footer-info">
-          <div class="container">
-            <div class="row">
-              <!-- About -->
-              <div class="col-md-6 col-sm-12 col-xs-12" style="display: flex; justify-content: center; align-items: center;">
-                <img class="margin-bottom-30" src="images/Logo_rentamaq.png" alt="" width="200px" style="background-color: #fff">
-              </div>
-              <!--======= Footer Info =========-->
-              <div class="col-md-6 col-sm-12 col-xs-12" style="display: flex; justify-content: center;">
-                <div class="foot-info-con">
-                  <ul>
-                    <!-- Call Us Now -->
-                    <li class="row">
-                      <div class="media-left">
-                        <div class="icon"> <i class="icon-call-in"></i></div>
-                      </div>
-                      <div class="media-body">
-                        <h6>Call Us Now </h6>
-                        <p>+ ( 124 ) 45 78 678 </p>
-                      </div>
-                    </li>
-
-                    <!-- Email us -->
-                    <li class="row">
-                      <div class="media-left">
-                        <div class="icon"> <i class="icon-envelope-open"></i></div>
-                      </div>
-                      <div class="media-body">
-                        <h6>Email us</h6>
-                        <p>info@mail.com</p>
-                      </div>
-                    </li>
-
-                    <!-- Fax to us -->
-                    <li class="row">
-                      <div class="media-left">
-                        <div class="icon"> <i class="icon-clock"></i></div>
-                      </div>
-                      <div class="media-body">
-                        <h6>Fax to us </h6>
-                        <p>+(01) 848-658-789</p>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </footer>
-
-    <!--======= RIGHTS =========-->
-    <div class="rights">
-      <div class="container">
-        <p>Copyrights &copy; 2015 All Rights Reserved </p>
       </div>
     </div>
-  </div>
 
-  <script src="js/jquery-1.12.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/own-menu.js"></script>
-  <script src="js/jquery.isotope.min.js"></script>
-  <script src="js/jquery.lighter.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
+    <!-- ============= MODAL =============== -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header" style="display: flex; flex-direction: column-reverse; ">
 
-  <!-- RS5.0 Core JS Files -->
-  <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
-  <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
-  <script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
-  <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-  <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-  <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-  <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
-  <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-  <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-  <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-  <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+            <div class="heading">
+              <h5>Contactanos</h5>
+            </div>
+            <button style="text-align: right;" type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <!-- FORM -->
+            <form id="contact_form" class="contact-form" method="post" onSubmit="return false" action="./php/submit.php">
+              <ul class="row">
+                <li class="col-md-6 col-sm-12 col-xs-12">
+                  <label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Tu nombre">
+                  </label>
+                </li>
+                <li class="col-md-6 col-sm-12 col-xs-12">
+                  <label>
+                    <input type="text" class="form-control" name="email" id="email" placeholder="Correo electrónico">
+                  </label>
+                </li>
+                <li class="col-md-6 col-sm-12 col-xs-12">
+                  <label>
+                    <input type="text" class="form-control" name="company" id="company" placeholder="Teléfono">
+                  </label>
+                </li>
+                <li class="col-md-12 col-sm-12 col-xs-12">
+                  <label>
+                    <textarea class="form-control" name="message" id="message" rows="5" placeholder="Descripción"></textarea>
+                  </label>
+                </li>
+                <li class="col-md-12 col-sm-12 col-xs-12">
+                  <button type="submit" value="submit" class="btn" id="btn_submit" onClick="proceed();">Enviar
+                    Mensaje <span><i class="ion-ios-arrow-thin-right"></i></span></button>
+                </li>
+              </ul>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  <!-- Begin map script-->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCf0dPCQ0C7oVF0WFKhuyz7v7oWei3vFPI "></script>
-  <script src="js/main.js"></script>
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/own-menu.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.lighter.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+    <!-- RS5.0 Core JS Files -->
+    <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
+    <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
+
+    <!-- Begin map script-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCf0dPCQ0C7oVF0WFKhuyz7v7oWei3vFPI "></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

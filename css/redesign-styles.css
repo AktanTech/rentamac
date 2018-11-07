@@ -1,8 +1,68 @@
+@font-face{
+    font-family: "EleganTech";
+    src: url("../fonts/elegantech--webfont.woff");
+    src: url("../fonts/elegantech--webfont.woff2");
+    src: url("../fonts/EleganTech-.ttf");
+}
+.gallery{
+    padding-right: 9em;
+    padding-left: 9em;
+}
+
+#generadores, #torres, #remolques{
+    padding-top: 0rem !important
+}
+.heading h5 {
+    background: black;
+}
+.heading h5::after{
+    border-color: #000 transparent transparent transparent;
+}
+.heading h5::before{
+    border-color: transparent transparent #000 transparent;
+}
+
+#headAbout{
+    margin-bottom: 20px;
+}
+.buttonUs{
+    width: 100%;
+    padding-left: 0px !important;
+    font-size: larger;
+}
+.infoUs{
+    font-family: 'Martel Sans', sans-serif;
+    font-size: medium;
+    text-align: justify;
+}
+.infoUs > ul > li{
+    list-style: inside;
+}
+.container-info-top-us{
+    height: 116px !important;
+    padding-bottom: 2em;
+}
+.container-info-bottom-us{
+    padding-bottom: 2.5em;
+}
+#service-image{
+    height: 440px;
+}
 @media (max-width: 600px){
     #Main-Logo{
         width: 160px;
     }
     #Info-Header{
         display: none;
+    }
+    .iconService{
+        width: 35px !important;
+    }
+    .gallery{
+        padding: 0em !important;
+    }
+
+    #service-image{
+        height: auto;
     }
 }

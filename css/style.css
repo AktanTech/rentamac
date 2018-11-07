@@ -61,7 +61,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Martel Sans', sans-serif;
 	font-weight: bold;
 	letter-spacing: 0.5px;
-	text-transform: uppercase;
 }
 h1 {
 	font-size: 42px;
@@ -73,7 +72,7 @@ h3 {
 	font-size: 30px;
 }
 h4 {
-	font-size: 24px;
+	font-size: 2rem;
 }
 h5 {
 	font-size: 18px;
@@ -253,7 +252,7 @@ a:hover, a:focus {
 	padding: 0px 15px;
 	padding-left: 10px;
 	position: relative;
-	background: #fb4848;
+	background: #be0811;
 	z-index: 2;
 	-webkit-transition: 0.4s ease-in-out;
 	-moz-transition: 0.4s ease-in-out;
@@ -262,7 +261,7 @@ a:hover, a:focus {
 	transition: 0.4s ease-in-out;
 }
 .btn:hover {
-	background: #fb4848;
+	background: #be0811;
 }
 .btn:hover i {
 	background: #36404b;
@@ -399,7 +398,7 @@ section,
 header {
 	position: relative;
 	width: 100%;
-	z-index: 9999;
+	z-index: 9998;
 	background: #fff;
 	padding-top: 30px;
 }
@@ -528,7 +527,7 @@ header .quotes a:hover {
 }
 .top-info-con {
 	float: right;
-	width: 70%;
+	width: 82%;
 	margin-top: 10px;
 	background: #fff;
 	position: relative;
@@ -861,8 +860,8 @@ header .quotes a:hover {
 	transition: all 0.4s ease-in-out;
 }
 .gallery li:hover .item-detail {
-	background: #fb4848;
-	border-color: #fb4848;
+	background: #be0811;
+	border-color: #be0811;
 }
 .gallery li.col-6 {
 	padding: 0px;
@@ -901,11 +900,17 @@ header .quotes a:hover {
 	color: #fff;
 }
 .gallery .col-6 li {
-	width: 16.6666%;
+	padding-right: 1.5rem;
+	padding-left: 1.5rem;
+	padding-bottom: 4rem;
 	float: left;
 }
+.imgGallery{
+	width: 30rem !important;
+	height: 18rem;
+}
 .gal-item .hover-info a:hover {
-	background: #fb4848;
+	background: #be0811;
 }
 .gallery li:hover .hover-info {
 	opacity: 1;
@@ -965,7 +970,7 @@ header .quotes a:hover {
 	bottom: -100%;
 	padding: 30px;
 	padding-bottom: 0px;
-	background: #fb4848;
+	background: #be0811;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
@@ -1076,11 +1081,11 @@ header .quotes a:hover {
 }
 .offers-tabs .nav li a:hover,
 .offers-tabs .nav li.active a {
-	background: #fb4848;
+	background: #be0811;
 	color: #fff;
 }
 .offers-tabs .tab-pane h4 {
-	color: #fb4848;
+	color: #be0811;
 	margin: 0px;
 	font-weight: 800;
 	margin-bottom: 30px;
@@ -1095,16 +1100,28 @@ header .quotes a:hover {
 	color: #36404b;
 }
 .offers-tabs .tab-pane ul li {
+	display: flex;
+    justify-content: space-around;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
-.offers-tabs .tab-pane ul span {
-	width: 50px;
-	display: inline-block;
+.tabImg {
+	width: 2.5rem;
+	height: 2.5rem;
+	margin-right: 1rem;
+}
+.offers-tabs .tab-pane ul li p {
+	display: flex;
+	flex-direction: row;
 }
 .offers-tabs .tab-pane ul {
 	margin-top: 30px;
 	margin-bottom: 30px;
+}
+.offers-tabs .tab-pane ul li a {
+	font-size: 1.5rem;
+	pointer-events: none;
+	cursor: default;
 }
 .offers-tabs .tab-pane {
 	padding: 100px 60px;
@@ -1432,8 +1449,6 @@ header .quotes a:hover {
 .testi .media-body span {
 	color: #b0b7ff;
 }
-.texti-slide {
-}
 .testimonial.page .testi {
 	margin-bottom: 80px;
 }
@@ -1709,10 +1724,20 @@ header .quotes a:hover {
 /*=======================================================
 			FOOTER
 ========================================================*/
+#Contactanos li{
+	display: flex;
+	flex-direction: column;
+}
+
+#Contactanos .row{
+	display: flex;
+	flex-direction: row;
+}
+
 footer p {
 	font-size: 15px;
 	line-height: 26px;
-	color: #969ea7;
+	color: #000000;
 }
 footer h6 {
 	color: #fff;
@@ -1721,7 +1746,7 @@ footer h6 {
 }
 footer {
 	padding: 0;
-	background: #000000 url(../images/footer-bg.png) center center no-repeat;
+	background: #F7EB45 url(../images/footer-bg.png) center center no-repeat;
 	padding-bottom: 60px;
 	margin-top: 60px;
 }
@@ -1968,9 +1993,15 @@ footer .social_icons a {
 	margin-top: 5px;
 }
 .foot-info-con {
-	display: inline-block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 100%;
 	margin-top: 80px;
+}
+.foot-info-con li{
+	margin-bottom: 2rem;
+	width: 50%; 
 }
 .foot-info-con li a {
 	font-size: 13px;
@@ -1980,7 +2011,7 @@ footer .social_icons a {
 .foot-info-con .icon {
 	height: 90px;
 	width: 90px;
-	color: #fff;
+	color: #000000;
 	background: #3f4955;
 	text-align: center;
 	line-height: 90px;
@@ -1993,11 +2024,12 @@ footer .social_icons a {
 .foot-info-con p {
 	font-size: 14px;
 	margin: 0px;
+	color: #000000;
 }
 .foot-info-con h6 {
 	font-weight: normal;
 	font-family: 'Ubuntu';
-	color: #fff;
+	color: #000000;
 	font-weight: bold;
 	margin-top: 20px;
 	font-size: 15px;
@@ -2005,11 +2037,14 @@ footer .social_icons a {
 	margin-bottom: 4px;
 	letter-spacing: 2px;
 }
+.footer-info .icon{
+	color: white;
+}
 /*=======================================================
 			CONTACT FORM
 ========================================================*/
 .contact-page #map {
-	height: 600px;
+	height: 32rem;
 }
 .contact-form .error {
 	border: 1px solid red;
@@ -2264,6 +2299,9 @@ footer .social_icons a {
 	color: #fb4848;
 }
 .comments .media-body h4 {
+	color: #222222;
+}
+.comments .media-body p {
 	color: #222222;
 }
 .comments .media-body h4 span {
@@ -2949,4 +2987,7 @@ footer .social_icons a {
 	width: 50px;
 	text-align: center;
 	color: #6183c1;
+}
+.modal{
+	z-index: 9999;
 }
