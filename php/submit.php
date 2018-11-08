@@ -2,11 +2,11 @@
 
 // specify your email here
 
-$from = 'contacto@rentamaqsur.com';
+$to = 'contacto@rentamaqsur.com';
 
 // Assigning data from $_POST array to variables
 if (isset($_POST['name'])) {$name = $_POST['name'];}
-if (isset($_POST['email'])) {$to = $_POST['email'];}
+if (isset($_POST['email'])) {$from = $_POST['email'];}
 if (isset($_POST['company'])) {$company = $_POST['company'];}
 if (isset($_POST['message'])) {$message = $_POST['message'];}
 
@@ -27,10 +27,12 @@ $mail_sent = mail($to, $subject, $body_message, $headers);
 if ($mail_sent == true) {?>
 <script language="javascript" type="text/javascript">
 		window.alert("Sent Successfuly.");
+        header('Location: http://rentamaqsur.com/');
 		</script>
 <?php } else {?>
 <script language="javascript" type="text/javascript">
                     window.alert("Error! Please Try Again Later.");
+                    header('Location: http://rentamaqsur.com/');
                 </script>
 <?php
 } // End else
