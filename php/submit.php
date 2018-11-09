@@ -2,7 +2,7 @@
 
 // specify your email here
 
-$to = 'victor.perera.rodriguez@gmail.com';
+$to = 'contacto@rentamaqsur.com';
 
 // Assigning data from $_POST array to variables
 if (isset($_POST['name'])) {$name = $_POST['name'];}
