@@ -2,39 +2,30 @@
 
 // specify your email here
 
-$to = 'contacto@rentamaqsur.com';
+$to = 'victor.perera.rodriguez@gmail.com';
 
 // Assigning data from $_POST array to variables
 if (isset($_POST['name'])) {$name = $_POST['name'];}
 if (isset($_POST['email'])) {$from = $_POST['email'];}
-if (isset($_POST['company'])) {$company = $_POST['company'];}
+if (isset($_POST['telefono'])) {$company = $_POST['telefono'];}
 if (isset($_POST['message'])) {$message = $_POST['message'];}
 
 // Construct subject of the email
-$subject = 'Medikal Contact Iquery ' . $name;
+$subject = 'Cotizacion de ' . $name;
 
 // Construct email body
-$body_message .= 'Name: ' . $name . "\r\n";
-$body_message .= 'Email: ' . $from . "\r\n";
-$body_message .= 'Phone: ' . $company . "\r\n";
-$body_message .= 'Message: ' . $message . "\r\n";
+$body_message = 'Name: ' . $name . "\r\n" . 'Email: ' . $from . "\r\n" . 'Phone: ' . $company . "\r\n" . 'Message: ' . $message . "\r\n";
 
 // Construct headers of the message
 $headers = 'From: ' . $from . "\r\n";
 
 $mail_sent = mail($to, $subject, $body_message, $headers);
 
-if ($mail_sent == true) {?>
-<script language="javascript" type="text/javascript">
-		window.alert("Sent Successfuly.");
-        header('Location: http://rentamaqsur.com/');
-		</script>
-<?php } else {?>
-<script language="javascript" type="text/javascript">
-                    window.alert("Error! Please Try Again Later.");
-                    header('Location: http://rentamaqsur.com/');
-                </script>
-<?php
-} // End else
-
+if ($mail_sent == true) {
+    http_response_code(200);
+    echo "Thank You! Your message has been sent.";
+} else {
+    http_response_code(500);
+    echo "Oops! Something went wrong and we couldn't send your message.";
+}
 ?>
