@@ -404,7 +404,7 @@
         </div>
         <div class="offers-tabs">
           <div class="row no-margin">
-            <div class="col-md-6 no-padding"> <img class="img-responsive" src="images/Imagenes21.png" alt="" id="service-image">
+            <div class="col-md-6 no-padding"> <img class="img-responsive" src="images/Imagenes21-min.png" alt="" id="service-image">
               <div class="position-center-center col-xs-12 no-padding">
                 <ul class="nav nav-pills nav-stacked" role="tablist">
                   <li role="presentation" class="active"><a href="#generadores" role="tab" data-toggle="tab"> <img src="images/generador.png"
@@ -538,7 +538,7 @@
             <!-- Gallery Item -->
 
             <li>
-              <div class="gal-item"> <img class="imgGallery" src="images/Imagenes20.png" alt="">
+              <div class="gal-item"> <img class="imgGallery" src="images/Imagenes20-min.png" alt="">
                 <div class="hover-info">
                   <div class="position-center-center"><a href="images/Imagenes20.png" data-lighter>
                       <i class="fa fa-search"></i>
@@ -549,7 +549,7 @@
 
             <!-- Gallery Item -->
             <li>
-              <div class="gal-item"> <img class="imgGallery" src="images/Imagenes12.png" alt="">
+              <div class="gal-item"> <img class="imgGallery" src="images/Imagenes12-min.png" alt="">
                 <div class="hover-info">
                   <div class="position-center-center"><a href="images/Imagenes12.png" data-lighter> <i class="fa fa-search"></i>
                     </a></div>
@@ -559,7 +559,7 @@
 
             <!-- Gallery Item -->
             <li>
-              <div class="gal-item"> <img class="imgGallery" src="images/Imagenes22.png" alt="">
+              <div class="gal-item"> <img class="imgGallery" src="images/Imagenes22-min.png" alt="">
                 <div class="hover-info">
                   <div class="position-center-center"><a href="images/Imagenes22.png" data-lighter> <i class="fa fa-search"></i>
                     </a></div>
@@ -569,7 +569,7 @@
 
             <!-- Gallery Item -->
             <li>
-              <div class="gal-item"> <img class="imgGallery" src="images/Imagenes10.png" alt="">
+              <div class="gal-item"> <img class="imgGallery" src="images/Imagenes10-min.png" alt="">
                 <div class="hover-info">
                   <div class="position-center-center">
                     <a href="images/Imagenes10.png" data-lighter>
@@ -582,7 +582,7 @@
 
             <!-- Gallery Item -->
             <li>
-              <div class="gal-item"> <img class="imgGallery" src="images/Imagenes11.png" alt="">
+              <div class="gal-item"> <img class="imgGallery" src="images/Imagenes11-min.png" alt="">
                 <div class="hover-info">
                   <div class="position-center-center">
                     <a href="images/Imagenes11.png" data-lighter>
@@ -594,7 +594,7 @@
             </li>
             <!-- Gallery Item -->
             <li>
-              <div class="gal-item"> <img class="imgGallery" src="images/Imagenes12.png" alt="">
+              <div class="gal-item"> <img class="imgGallery" src="images/Imagenes12-min.png" alt="">
                 <div class="hover-info">
                   <div class="position-center-center">
                     <a href="images/Imagenes12.png" data-lighter>
@@ -700,39 +700,46 @@
             </button>
           </div>
           <div class="modal-body">
+<<<<<<< HEAD
 
             <!-- FORM -->
             <form id="contact_form" class="contact-form" method="post" onSubmit="return false" action="./php/submit.php">
               <!-- Success Msg -->
               <div id="contact_message" class="success-msg"> <i class="fa fa-paper-plane-o"></i>Gracias. Tu
                 mensaje ha sido enviado</div>
+=======
+            <!-- FORM -->
+            <form id="contact_form" class="contact-form" method="post" action="./php/submit.php">
+>>>>>>> f23ad5267da9daf0cadd5bfe50ea2c71ce77d926
               <ul class="row">
                 <li class="col-md-6 col-sm-12 col-xs-12">
                   <label>
-                    <input type="text" class="form-control" name="name" id="name" placeholder="Tu nombre">
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Tu nombre" required>
                   </label>
                 </li>
                 <li class="col-md-6 col-sm-12 col-xs-12">
                   <label>
-                    <input type="text" class="form-control" name="email" id="email" placeholder="Correo electrónico">
+                    <input type="text" class="form-control" name="email" id="email" placeholder="Correo electrónico" required>
                   </label>
                 </li>
                 <li class="col-md-6 col-sm-12 col-xs-12">
                   <label>
-                    <input type="text" class="form-control" name="company" id="company" placeholder="Teléfono">
+                    <input type="text" class="form-control" name="telefono" id="telefono" placeholder="Teléfono" required>
                   </label>
                 </li>
                 <li class="col-md-12 col-sm-12 col-xs-12">
                   <label>
-                    <textarea class="form-control" name="message" id="message" rows="5" placeholder="Descripción"></textarea>
+                    <textarea class="form-control" name="message" id="message" rows="5" placeholder="Descripción" required></textarea>
                   </label>
                 </li>
                 <li class="col-md-12 col-sm-12 col-xs-12">
-                  <button type="submit" value="submit" class="btn" id="btn_submit" onClick="proceed();">Enviar
+                  <button type="submit" value="submit" class="btn btn_submit" id="btn_submit">Enviar
                     Mensaje <span><i class="ion-ios-arrow-thin-right"></i></span></button>
                 </li>
               </ul>
             </form>
+            <!-- Success Msg -->
+            <div id="contact_message" class="success-msg"> <i class="fa fa-paper-plane-o"></i></div>
           </div>
         </div>
       </div>
@@ -745,6 +752,49 @@
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/jquery.lighter.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="js/send.js"></script>
+    <!-- <script type="text/javascript"> -->
+      <!-- // $(document).ready(function() {
+      //   var name = document.getElementById('name')
+      //   var email = document.getElementById('email')
+      //   var company = document.getElementById('company')
+      //   var msg = document.getElementById('message')
+      //   var errors = ''
+      //   if (name.value == '') {
+      //     name.className = 'error'
+      //     return false
+      //   } else if (email.value == '') {
+      //     email.className = 'error'
+      //     return false
+      //   } else if (checkmail(email.value) == false) {
+      //     alert('Please provide a valid email address.')
+      //     return false
+      //   } else if (company.value == '') {
+      //     company.className = 'error'
+      //     return false
+      //   } else if (msg.value == '') {
+      //     msg.className = 'error'
+      //     return false
+      //   } else {
+      //     $('#contact-form').on('submit', function(e){
+      //       e.preventDefault();
+      //       var request = $.ajax({
+      //         type: 'POST',
+      //         url: "./php/submit.php",
+      //         data: $('#contact_form').serialize()
+      //       })
+        
+      //       request.done(function(){
+      //         alert('Sent Succesful!');
+      //       })
+        
+      //       request.fail(function(){
+      //         alert('Error! Sent Failed, Please Contact the admin');
+      //       })
+      //     });
+      //   };
+      // }) -->
+    <!-- </script> -->
 
     <!-- RS5.0 Core JS Files -->
     <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>

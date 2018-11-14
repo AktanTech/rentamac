@@ -309,7 +309,6 @@ section,
 ========================================================*/
 .heading {
 	margin: 0 auto;
-	margin-bottom: 60px;
 	position: relative;
 	z-index: 1;
 }
@@ -2065,6 +2064,7 @@ footer .social_icons a {
 	text-align: center;
 	padding: 11px 16px;
 	border-radius: 4px;
+	font-size: large;
 	display: none;
 }
 .success-msg i {
